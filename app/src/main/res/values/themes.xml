@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DisenioQuizUp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#20817F</item>
+        <!--<item name="colorPrimaryVariant">@color/mi_color_primary_variant</item>
+        <item name="colorOnPrimary">@color/mi_color_on_primary</item>
+        <item name="colorSecondary">@color/mi_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/mi_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/mi_color_on_secondary</item>
+        Otros atributos de color que desees personalizar -->
+    </style>
+
+    <style name="Theme.DisenioQuizUp" parent="Base.Theme.DisenioQuizUp" />
+</resources>
