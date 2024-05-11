@@ -13,10 +13,13 @@
         android:theme="@style/Theme.DisenioQuizUp"
         tools:targetApi="31">
         <activity
-            android:name=".MenuUsuario"
+            android:name=".CuestionarioCalificado"
             android:exported="false" />
         <activity
-            android:name=".Registro"
+            android:name=".CuestionarioTerminado"
+            android:exported="false" />
+        <activity
+            android:name=".Preguntas"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,8 +28,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MenuUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
             android:name=".Login"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
